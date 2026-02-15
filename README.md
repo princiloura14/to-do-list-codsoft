@@ -3,84 +3,117 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/princiloura14/advanced-todo-app)
-![GitHub last commit](https://img.shields.io/github/last-commit/princiloura14/advanced-todo-app)
+![Repo Size](https://img.shields.io/github/repo-size/princiloura14/Advanced-To-Do-List-Application)
+![Last Commit](https://img.shields.io/github/last-commit/princiloura14/Advanced-To-Do-List-Application)
 
 
 A command-line based task management application built using Python.  
 This application allows users to efficiently create, manage, and track tasks with persistent storage using JSON.
 
 ---
+📌 Project Overview:-
 
-## 📌 Project Overview
+Project Type  : Command Line Interface (CLI)
+Language      : Python 3
+Architecture  : Object-Oriented Programming (OOP)
+Storage       : JSON-based local persistence
+Version Ctrl  : Git & GitHub
+Editor        : VS Code
 
-The **Advanced To-Do List Application** is a Python-based CLI project designed to demonstrate:
 
-- Object-Oriented Programming (OOP)
-- File handling
-- JSON data storage
-- Clean project structure
-- Version control using Git & GitHub
+This project demonstrates:
 
-The application stores tasks locally in a JSON file, ensuring data persistence even after closing the program.
+Object-Oriented Programming (OOP)
+File handling & JSON storage
+Exception handling
+Modular project structure
+Clean code practices
+Version control workflow
 
----
+🚀 Features:
 
-## 🚀 Features
+[+] Add Task
+    - Title
+    - Priority (Low / Medium / High)
+    - Due Date
 
-- ➕ Add new tasks with:
-  - Title
-  - Priority (Low / Medium / High)
-  - Due date
-- 👀 View all existing tasks
-- ✅ Mark tasks as completed
-- ❌ Delete tasks
-- 💾 Persistent JSON-based storage
-- 🧠 OOP-based modular structure
+[•] View Tasks
+    - Displays all tasks in structured format
 
----
+[✔] Complete Task
+    - Marks selected task as completed
 
-## 🛠 Technologies Used
+[-] Delete Task
+    - Removes task from list
 
-- **Python 3**
-- JSON
-- File Handling
-- Object-Oriented Programming
-- Git & GitHub
-- VS Code
+[💾] Persistent Storage
+    - Automatically saves tasks to JSON file
 
----
+[⚠] Error Handling
+    - Handles missing or corrupted files gracefully
 
-## 📂 Project Structure
-advanced-todo-app/
+🛠 Technologies Used:
+
+Python 3
+JSON Module
+OS Module
+Datetime Module
+Git
+GitHub
+VS Code
+
+📂 Project Structure:
+
+Advanced-To-Do-List-Application/
 │
-├── main.py # Application entry point
-├── task_manager.py # Task management logic (OOP class)
-├── tasks.json # Stores tasks persistently
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+├── main.py
+├── task_manager.py
+├── requirements.txt
+└── README.md
+
+Note:
+- tasks.json is auto-generated at runtime.
+- It is excluded from version control using .gitignore.
+- This keeps the repository clean and professional.
+
+⚙️ Application Workflow:
+1. Program starts
+2. TaskManager class initializes
+3. Existing tasks loaded (if file exists)
+4. User selects operation from menu
+5. Tasks updated accordingly
+6. Changes saved automatically to JSON
 
 
----
+Each Task Object Contains:
+{
+    "title": "Task Name",
+    "priority": "High/Medium/Low",
+    "due_date": "YYYY-MM-DD",
+    "completed": true/false,
+    "created_at": "timestamp"
+}
 
-## ⚙️ How It Works
+▶️ Installation & Execution:
 
-- The application uses a `TaskManager` class to manage tasks.
-- Tasks are stored in `tasks.json`.
-- Each task contains:
-  - Title
-  - Priority
-  - Due date
-  - Completion status
-  - Created timestamp
+Clone Repository:- git clone https://github.com/princiloura14/to-do-list-codsoft.git
+Navigate to Directory:- cd to-do-list-codsoft
+Run Application:- python main.py
 
----
+📚 Learning Outcomes:
 
-## ▶️ Installation & Running the Project
+✔ Applied OOP principles in real project
+✔ Implemented persistent storage using JSON
+✔ Handled file-based exceptions
+✔ Structured CLI application professionally
+✔ Practiced Git workflow (add, commit, push)
+✔ Wrote production-style README documentation
 
-### 1️⃣ Clone the Repository
+👩‍💻 Author:-
 
-```bash
-https://github.com/princiloura14/to-do-list-codsoft.git
+Name    : Princi Loura
+Role    : Aspiring DevOps and Cloud Engineer
+GitHub  : https://github.com/princiloura14
+
 
 

@@ -15,7 +15,7 @@ class TaskManager:
                     return json.load(file)
             except json.JSONDecodeError:
                 return []
-            return []
+        return []
         
     def save_tasks(self):
         with open(self.file_name, "w") as file:
@@ -38,9 +38,9 @@ class TaskManager:
             return
         
         print("\n======== YOUR TASK =========")
-        for index, task in enumerate(self.tasks):
+        for index, task in enumerate(self.tasks, start=1):
             status = "\u2714" if task["completed"] else " "
-            print(f"\nTask {index + 1}")
+            print(f"\nTask {index}")
             print(f"Title       :  {task['title']}")
             print(f"Priority    :  {task['priority']}")
             print(f"Due Date    :  {task['due_date']}")

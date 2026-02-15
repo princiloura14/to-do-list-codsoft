@@ -3,8 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
-![Repo Size](https://img.shields.io/github/repo-size/princiloura14/Advanced-To-Do-List-Application)
-![Last Commit](https://img.shields.io/github/last-commit/princiloura14/Advanced-To-Do-List-Application)
 
 
 A command-line based task management application built using Python.  
@@ -13,22 +11,22 @@ This application allows users to efficiently create, manage, and track tasks wit
 ---
 📌 Project Overview:-
 
-Project Type  : Command Line Interface (CLI)
-Language      : Python 3
-Architecture  : Object-Oriented Programming (OOP)
-Storage       : JSON-based local persistence
-Version Ctrl  : Git & GitHub
-Editor        : VS Code
+✔Project Type  : Command Line Interface (CLI)
+✔Language      : Python 3
+✔Architecture  : Object-Oriented Programming (OOP)
+✔Storage       : JSON-based local persistence
+✔Version Ctrl  : Git & GitHub
+✔Editor        : VS Code
 
 
 This project demonstrates:
 
-Object-Oriented Programming (OOP)
-File handling & JSON storage
-Exception handling
-Modular project structure
-Clean code practices
-Version control workflow
+✔Object-Oriented Programming (OOP)
+✔File handling & JSON storage
+✔Exception handling
+✔Modular project structure
+✔Clean code practices
+✔Version control workflow
 
 🚀 Features:
 
@@ -96,9 +94,9 @@ Each Task Object Contains:
 
 ▶️ Installation & Execution:
 
-Clone Repository:- git clone https://github.com/princiloura14/to-do-list-codsoft.git
-Navigate to Directory:- cd to-do-list-codsoft
-Run Application:- python main.py
+✔Clone Repository:- git clone https://github.com/princiloura14/to-do-list-codsoft.git
+✔Navigate to Directory:- cd to-do-list-codsoft
+✔Run Application:- python main.py
 
 📚 Learning Outcomes:
 

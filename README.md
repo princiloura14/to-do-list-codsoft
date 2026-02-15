@@ -52,13 +52,13 @@ This project demonstrates:
 
 🛠 Technologies Used:
 
-Python 3
-JSON Module
-OS Module
-Datetime Module
-Git
-GitHub
-VS Code
+👉Python 3
+👉JSON Module
+👉OS Module
+👉Datetime Module
+👉Git
+👉GitHub
+👉VS Code
 
 📂 Project Structure:
 
@@ -70,9 +70,9 @@ Advanced-To-Do-List-Application/
 └── README.md
 
 Note:
-- tasks.json is auto-generated at runtime.
-- It is excluded from version control using .gitignore.
-- This keeps the repository clean and professional.
+-> tasks.json is auto-generated at runtime.
+-> It is excluded from version control using .gitignore.
+-> This keeps the repository clean and professional.
 
 ⚙️ Application Workflow:
 1. Program starts
@@ -85,11 +85,11 @@ Note:
 
 Each Task Object Contains:
 {
-    "title": "Task Name",
-    "priority": "High/Medium/Low",
-    "due_date": "YYYY-MM-DD",
-    "completed": true/false,
-    "created_at": "timestamp"
+   👉 "title": "Task Name",
+   👉 "priority": "High/Medium/Low",
+   👉 "due_date": "YYYY-MM-DD",
+   👉 "completed": true/false,
+   👉 "created_at": "timestamp"
 }
 
 ▶️ Installation & Execution:
@@ -109,9 +109,9 @@ Each Task Object Contains:
 
 👩‍💻 Author:-
 
-Name    : Princi Loura
-Role    : Aspiring DevOps and Cloud Engineer
-GitHub  : https://github.com/princiloura14
+👉Name    : Princi Loura
+👉Role    : Aspiring DevOps and Cloud Engineer
+👉GitHub  : https://github.com/princiloura14
 
 
 

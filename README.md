@@ -11,12 +11,12 @@ This application allows users to efficiently create, manage, and track tasks wit
 ---
 📌 Project Overview:-
 
-✔Project Type  : Command Line Interface (CLI)
-✔Language      : Python 3
-✔Architecture  : Object-Oriented Programming (OOP)
-✔Storage       : JSON-based local persistence
-✔Version Ctrl  : Git & GitHub
-✔Editor        : VS Code
+•Project Type  : Command Line Interface (CLI)
+•Language      : Python 3
+•Architecture  : Object-Oriented Programming (OOP)
+•Storage       : JSON-based local persistence
+•Version Ctrl  : Git & GitHub
+•Editor        : VS Code
 
 
 This project demonstrates:
@@ -52,13 +52,13 @@ This project demonstrates:
 
 🛠 Technologies Used:
 
-👉Python 3
-👉JSON Module
-👉OS Module
-👉Datetime Module
-👉Git
-👉GitHub
-👉VS Code
+•Python 3
+•JSON Module
+•OS Module
+•Datetime Module
+•Git
+•GitHub
+•VS Code
 
 📂 Project Structure:
 
@@ -85,11 +85,11 @@ Note:
 
 Each Task Object Contains:
 {
-   👉 "title": "Task Name",
-   👉 "priority": "High/Medium/Low",
-   👉 "due_date": "YYYY-MM-DD",
-   👉 "completed": true/false,
-   👉 "created_at": "timestamp"
+    "title": "Task Name",
+    "priority": "High/Medium/Low",
+    "due_date": "YYYY-MM-DD",
+    "completed": true/false,
+    "created_at": "timestamp"
 }
 
 ▶️ Installation & Execution:
